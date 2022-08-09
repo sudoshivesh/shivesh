@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Shivesh's Portfolio Website</title>
+
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Shivesh Shivam</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-house-user nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user-circle nav__icon"></i>About
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Projects
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#achievements" class="nav__link">
+                                <i class="uil uil-trophy nav__icon"></i>Achievements
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#courses" class="nav__link"></i>
+                                <i class="uil uil-notebooks nav__icon"></i>Courses
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="http://linkedin.com/in/sudoshivesh" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/sudoshivesh" target="_blank"  class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+
+                            <a href="https://codeforces.com/profile/sudoshivesh" target="_blank" class="home__social-icon">
+                                <i class="uil uil-graph-bar"></i>
+                            </a>
+
+                            <a href="https://leetcode.com/sudoshivesh/" class="home__social-icon">
+                                <i class="uil uil-angle-left"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M47.8,-60.4C61.4,-55.9,71.5,-41.2,71.7,-26.6C71.8,-12.1,61.8,
+                                2.4,54.1,14.9C46.4,27.4,40.8,38,32.2,45.1C23.5,52.2,11.8,55.8,-0.5,56.5C-12.8,57.2,-25.6,55.1,
+                                -39.4,49.6C-53.1,44.2,-67.7,35.5,-72.8,22.9C-77.9,10.4,-73.3,-6,-64.7,-17.4C-56,-28.9,-43.3,-35.4,
+                                -31.8,-40.6C-20.3,-45.8,-10.2,-49.7,3.5,-54.4C17.1,-59.2,34.2,-64.9,47.8,-60.4Z" 
+                                transform="translate(100 100)"/>
+                                <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/perfil.png"/>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I am Shivesh</h1>
+                            <h3 class="home__subtitle">CSAI undergrad at NIET, Greater Noida.</h3>
+                            <p class="home__description">Programmer</p>
+                            <a href="mailto:0201csai052@niet.co.in" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Hello there! This is Shivesh Shivam. Currently I am pursuing CSAI at NIET, Greater Noida. I want to be a Full Stack Developer.
+                            I love problem-solving and critical thinking. I am good at C, C++, Java, Python and Communication. I enjoy competitive-programming and formulating and proving algorithms. 
+                            I love coding. Additionally, I have interest in ethical hacking, AI/ML, Calligraphy and Graphic Designing.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--==================== projectS ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="projects__container container grid">
+                    <!-- Project 0 -->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-arrow projects__icon"></i>
+                            <h3 class="projects__title">Independence Day Wish</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link projects__button">
+                           View More 
+                           <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Independence Day Wish</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-calendar-alt projects__modal-icon"></i>
+                                        <p>July 2022</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-file-question projects__modal-icon"></i>
+                                        <p>Building a responsive page to wish Independence Day by just entering your name. It will create a personalized and interactive wish along with music.</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-atom projects__modal-icon"></i>
+                                        <p>Technologies used: HTML,CSS and Git.</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-github-alt projects__modal-icon"></i>
+                                        <a href="https://github.com/sudoshivesh/IndependenceDay.github.io">See project</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 1 -->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-arrow projects__icon"></i>
+                            <h3 class="projects__title">Github Interactive UI/UX</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link projects__button">
+                           View More 
+                           <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Github Interactive UI/UX</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-calendar-alt projects__modal-icon"></i>
+                                        <p>July 2022</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-file-question projects__modal-icon"></i>
+                                        <p>A github repository that contain readme file which has code written in HTML and CSS. It provide a interactive and eyecatching github profile view.</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-atom projects__modal-icon"></i>
+                                        <p>Technologies used: HTML and CSS</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-github-alt projects__modal-icon"></i>
+                                        <a href="https://github.com/sudoshivesh/sudoshivesh">See code</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-arrow projects__icon"></i>
+                            <h3 class="projects__title">Portfolio Website</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link projects__button">
+                           View More 
+                           <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Protfolio website</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-calendar-alt projects__modal-icon"></i>
+                                        <p>Aug. 2022 - Ongoing</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-file-question projects__modal-icon"></i>
+                                        <p>I made this website in August 2022 and hosted on github. I'll be making commit when I learnt something new.</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-atom projects__modal-icon"></i>
+                                        <p>Technologies used: HTML-CSS, Javascript</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-users-alt projects__modal-icon"></i>
+                                        <p>Team Size: 1</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-github-alt projects__modal-icon"></i>
+                                        <a href="https://github.com/sudoshivesh/sudoshivesh.github.io">See code</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                                                          
+
+                    
+                </div>
+
+            </section>
+            <!--==================== achievementS ====================-->
+            <section class="achievements section" id="achievements">
+                <h2 class="section__title">Achievements</h2>
+                <span class="section__subtitle"></span>
+                <div class="achievements__container container grid">
+                    <div>
+                        <!-- achievement 1 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-brackets-curly achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">Competitive Programming</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">Started leetcode and Codeforces in August 2022</li>
+                                <li class="achievements__name">Recieved Python gold badge on Hackerrank</li>
+                                <li class="achievements__name">Completed 30 days of code on Hackerrank</li>
+                                <li class="achievements__name">Participated in various Codechef contest</li>
+                            </ul>
+                            
+                        </div>
+                        <!-- achievement 2 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-books achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">Academics</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">9.13 SGPA in college (3rd semesters)</li>
+                                <li class="achievements__name">9.93 SGPA in college (2nd semesters)</li>
+                                <li class="achievements__name">8.51 SGPA in college (1st semesters)</li>
+                                <li class="achievements__name">73.8% in CBSE class XII at Paramount Academy, Muzaffarpur, Bihar</li>
+                                <li class="achievements__name">85.2% in ICSE class X at North Point Children's School, Muzaffarpur, Bihar</li>
+                                <li class="achievements__name">.</li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                    
+                    <div>    
+                        <!-- achievement 3 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-music achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">Co-curricular</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">Awarded Campus SuperHero position by CodingBlocks</li>
+                                <li class="achievements__name">Successfully conducted various event under my supervision</li>
+                                <li class="achievements__name">Teaching Computer Science to class IX and Xth students (giving tution) <a href="https://www.youtube.com/channel/UCydPo3aYSieEA4RbbFOHukA">videos </a>on YouTube also.</li>
+                                <li class="achievements__name">Participated in various Idea Pitching competition</li>
+                                <!--<li class="achievements__name">Have written <a href="https://docs.google.com/presentation/d/1LBalCm-wlazaXXrAXQLChfhnQAU_9s4oyQL4bBHmqt4/edit?usp=sharing"> 20+ short stories </a> as part of Creative Writing Specialization on Coursera</li>-->
+                                
+                            </ul>
+                        </div>
+                        <!-- achievement 4 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-graduation-cap achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">Positions of Responsibility</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">Campus SuperHero at Coding Blocks</li>
+                                <li class="achievements__name">Head Co-ordinator at NIET Coding Club : EmergeX</li>
+                                <li class="achievements__name">Content Writer at Saral Bharat News Channel</li>
+                                <li class="achievements__name">Class representative in Student Senate</li>
+                                <li class="achievements__name">Student Co-ordinator in Toycathon Physical Edition</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Courses</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="achievements__container container grid">
+                    <div>
+                        <!-- achievementS 1 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-laptop achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">CSE</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                    <li class="achievements__name">Problem Solving using Python (ACSE0101)</li>
+                                    <li class="achievements__name">Basic Electrical and Electronics Engineering (AEC0101)</li>
+                                    <li class="achievements__name">Professional Communication (AASL0101)</li>
+                                    <li class="achievements__name">Problem Solving using Advance Python (ACSE0202)</li>
+                                    <li class="achievements__name">Design Thinking - I (ACSE0203)</li>
+                                    <li class="achievements__name">Foreign Language : French (AASL0202)</li>
+                                    <li class="achievements__name">Computer Orgnaization & Architecture (ACSE0305)</li>
+                                    <li class="achievements__name">OOT using Java (ACSE0302)</li>
+                                    <li class="achievements__name">Data Structure (ACSE0301)</li>
+                                    <li class="achievements__name">Database Management Systems (ACSAI0402)</li>
+                                    <li class="achievements__name">Introduction to Info. Security & Cryptography (ACSAI0403)</li>
+                                    <li class="achievements__name">Technical Communication (AASL0401)</li>
+                                    <li class="achievements__name">Theory of Automata & Formal Language (ACSE0404)</li>
+                                    <li class="achievements__name">Operating System (ACSE0403A)</li>
+                                    <li class="achievements__name">Design & Analysis of Algorithms (ACSE0401)</li>
+                                    <li class="achievements__name">Design Thinking - II</li>
+                                    <li class="achievements__name">Web Technology (20CS603)</li>
+                                    <li class="achievements__name">Computer Network (CSE112)</li>
+                                    <li class="achievements__name">Departmental Elective : Full Stack Development</li>
+                            </ul>
+                        </div>
+                        <!-- achievementS 2 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-brain achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">AI</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">Introduction to Artificial Intelligence (ACSAI-0301)</li>
+                            </ul>
+                        
+                        </div>
+                    </div>
+                    
+                    <div>    
+                        <!-- achievementS 3 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-calculator-alt achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">Maths</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">Mathematical Foundation - I (AAS0104)</li>
+                                <li class="achievements__name">Mathematical Foundation - II (AAS0204)</li>
+                                <li class="achievements__name">Statistics and Probability (AAS0303)</li>
+                                <li class="achievements__name">Discrete Mathematics (ACSE0306)</li>
+                                <li class="achievements__name">Optimization & Numerical Technique (ACSE0404)</li>
+                            </ul>
+                        </div>
+                      
+                        <!-- achievementS 3 -->
+                        <div class="achievements__content achievements__close">
+                            <div class="achievements__header">
+                                <i class="uil uil-search-alt achievements__icon"></i>
+                                <div>
+                                    <h1 class="achievements__title">Online</h1>
+                                </div>
+                                <i class="uil uil-angle-down achievements__arrow"></i>
+                            </div>
+
+                            <ul class="achievements__list grid">
+                                <li class="achievements__name">NPTEL: Emotional Intelligence</li>
+                                <li class="achievements__name">Coursera: Building AI Powered Chatbot without Programming</li>
+                                <li class="achievements__name">Coursera: Getting Started with AI using IBM Watsom</li>
+                                <li class="achievements__name">Coursera: Blockchain Basics</li>
+                                <li class="achievements__name">Coursera: Cryptography</li>
+                                <li class="achievements__name">Coursera: Decentralized Applications (Dapps)</li>
+                                <li class="achievements__name">Coursera: Blockchain Platforms</li>
+                                <li class="achievements__name">Coursera: Blockchain Basics</li>
+                                <li class="achievements__name">Hackerrank: Python Basics</li>
+                                <li class="achievements__name">Coursera: Blockchain Basics</li>
+                                <li class="achievements__name">Google Digital Garage: The Fundamental of Digital Marketing</li>
+                                <li class="achievements__name">Great Learning: Introduction to Management</li>
+                                <li class="achievements__name">CISCO: Cybersecurity</li>
+                                <li class="achievements__name">Infosys: Programming Fundamental using Python - Part I</li>
+                                <li class="achievements__name">Infosys: Programming using JAVA</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Shivesh</h1>
+                        <span>Programmer</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#achievements" class="footer__link">Achievements</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#courses" class="footer__link">Courses</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer__copy">&#169; Copyright </p>
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
